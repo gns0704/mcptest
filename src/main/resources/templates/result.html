@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>result.html</title>
+</head>
+<body>
+<h1>요청작업 완료!!!!</h1>
+<h2>가입된 정보</h2>
+<ul>
+    <li>아이디 : [[${member.id}]]</li>
+    <li>이메일 : [[${member.email}]]</li>
+    <li>가입일 : [[${member.regdate}]]</li>
+</ul>
+<a th:href="@{/}">홈</a>
+</body>
+</html>
