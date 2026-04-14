@@ -1,4 +1,4 @@
-# 📋 mcptest - Spring Boot 게시판 프로젝트
+#  mcptest - Spring Boot 게시판 프로젝트
 
 Spring Boot 기반의 게시판(Board) 웹 애플리케이션입니다.  
 회원(Member)과 게시글(Board)의 CRUD 및 페이지네이션 기능을 제공합니다.
